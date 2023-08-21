@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 345px auto;
+
+    .sidebar {
+        height: 153vh;
+        background-color: #fff;
+        padding: 50px 46px 0 46px;
+
+        .logo-img {
+            display: inline-block;
+            margin-bottom: 46px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            #linkOne {
+                background-color: $blue-violet;
+                padding: 18px 60px 18px 27px;
+                color: #fff;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+            li {
+                border-radius: 16px;
+                margin-bottom: 36px;
+                padding: 0 60px 0 27px;
+
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: #737791;
+                    font-weight: 500;
+                }
+
+                img {
+                    padding-right: 24px;
+                }
+            }
+        }
+
+        .sidebarAdvertising {
+            margin-top: 50px;
+            margin-bottom: 86px;
+            display: inline-block;
+            width: 100%;
+            background: url("../images/backgroundAdvertising.svg") no-repeat center;
+            height: 259px;
+            color: #fff;
+
+            .innerAdvertising {
+                padding: 30px 46px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+            .advertisingBtn{
+                width: 100%;
+                padding: 8px 38px;
+                background-color: #fff;
+                color: $primary;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .content {
+        background-color: #E8E8E8;
+
+        .content-inner {
+            padding: 2rem;
+        }
+    }
+}

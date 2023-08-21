@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+.app-wrapper {
+  background-color: black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app-wrapper {
+  height: 400px;
+  width: 100%;
+  background-color: yellow;
+}
+.app-wrapper h1 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+.header {
+    padding: 30px 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-logo{
+        h1{
+            font-weight: 700;
+            color: $dark-gray-blue;
+        }
+    }
+
+    .header-input {
+        display: flex;
+        align-items: center;
+        padding: 14px 24px;
+        background-color: $background-gray;
+        border-radius: 16px;
+        width: 35%;
+
+        input {
+            border: none;
+            width: 100%;
+            background-color: $background-gray;            
+        }
+
+        input::placeholder{color: $gray-blue; font-weight: 500;}
+
+        input:focus {outline: none;}
+
+        .icon{
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            color: $blue-violet;
+        }
+    }
+
+    .header-language{
+        display: flex;
+
+        .language-img {
+            width: 20%;
+            padding-right: 30px;
+
+            img{
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+
+        .language-content {
+
+            span {
+                display: inline-block;
+                padding-right: 20px;
+            }
+
+            .icon {
+                width: 24px;
+                height: 24px;
+                color: $gray-blue;
+            }
+        }
+    }
+
+    .header-profile {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+
+        .bell{
+            background-color: $yellow;
+            padding: 13px;
+            border-radius: 8px;
+
+
+            .icon {
+                width: 24px;
+                height: 24px;
+                color: $dark-yellow;
+            }
+        }
+
+        .profile-photo {
+            width: 30%;
+
+            img {
+                width: 100%;
+                border-radius: 16px;
+            }
+        }
+
+        .profile-name{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            color: $dark-gray-blue;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+$custom-color: red;
+$blue-violet: #5D5FEF;
+$gray-blue: #737791;
+$primary: #5D5FEF;
+$dark-gray-blue: #151D48;
+$background-gray: #F9FAFB;
+$yellow : #FFFAF1;
+$dark-yellow : #FFA412;
+
+
+
+@import "./_app";
+@import "./_card";
+@import "./_header"
